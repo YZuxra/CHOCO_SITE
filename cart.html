@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Savat | Choco Market</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+<header class="navbar">
+    <h2>🛒 Savat</h2>
+    <a href="index.html">⬅ Bosh sahifaga qaytish</a>
+</header>
+
+<section class="cart-container">
+    <table>
+        <thead>
+            <tr>
+                <th>Mahsulot</th>
+                <th>Narx</th>
+                <th>Soni</th>
+                <th>Amal</th>
+            </tr>
+        </thead>
+        <tbody id="cart-items"></tbody>
+    </table>
+
+    <div class="total">
+        <h3>Jami: <span id="total-price">0</span> so'm</h3>
+        <button>Buyurtma berish</button>
+        <h3>Buyurtma ma'lumotlari</h3>
+
+<form id="order-form">
+    <input type="text" id="name" placeholder="Ismingiz" required>
+    <input type="tel" id="phone" placeholder="Telefon raqam" required>
+    <textarea id="address" placeholder="Manzilingiz" required></textarea>
+    <button type="submit">Buyurtma berish</button>
+</form>
+
+<div id="success" style="display:none; color:green; margin-top:15px;">
+    ✅ Buyurtmangiz qabul qilindi!
+</div>
+
+    </div>
+</section>
+
+<script src="cart.js"></script>
+</body>
+</html>

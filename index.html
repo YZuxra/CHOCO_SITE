@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Choco Market</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="navbar">
+    <div class="logo">🍫 Choco Market</div>
+    <input type="text" placeholder="Shirinlik qidiring...">
+    <nav>
+        <a href="#">Bosh sahifa</a>
+        <a href="#">Kategoriyalar</a>
+        <a href="#">Mahsulotlar</a>
+        <a href="#">Aloqa</a>
+        <a href="#">🛒 Savat (<span id="cart-count">0</span>)</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>Shirinliklar dunyosi <span>Choco Marketda</span></h1>
+        <p>Premium sifatli shirinliklar uchun eng yaxshi joy</p>
+        <button>Xarid qilish</button>
+    </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="categories">
+    <div class="cat">Shokolad</div>
+    <div class="cat">Karamel</div>
+    <div class="cat">Pahlava</div>
+    <div class="cat">Kek</div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products">
+    <h2>Ommabop mahsulotlar</h2>
+
+    <div class="product-grid">
+
+        <div class="product">
+            <img src="images/chocolate.jpg">
+            <h3>Shokolad Bar</h3>
+            <p class="price">50,000 so'm</p>
+            <button onclick="addToCart()">Savatga qo'shish</button>
+        </div>
+
+        <div class="product">
+            <img src="images/caramel.jpg">
+            <h3>Karamel Konfet</h3>
+            <p class="price">30,000 so'm</p>
+            <button onclick="addToCart()">Savatga qo'shish</button>
+        </div>
+
+        <div class="product">
+            <img src="images/baklava.jpg">
+            <h3>Pahlava</h3>
+            <p class="price">70,000 so'm</p>
+            <button onclick="addToCart()">Savatga qo'shish</button>
+        </div>
+
+        <div class="product">
+            <img src="images/cake.jpg">
+            <h3>Shirin Kek</h3>
+            <p class="price">40,000 so'm</p>
+            <button onclick="addToCart()">Savatga qo'shish</button>
+        </div>
+
+        <div class="product">
+            <img src="images/jelly.jpg">
+            <h3>Jele Konfet</h3>
+            <p class="price">25,000 so'm</p>
+            <button onclick="addToCart()">Savatga qo'shish</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div>
+        <h3>Choco Market</h3>
+        <p>Eng mazali shirinliklar siz uchun.</p>
+    </div>
+
+    <div>
+        <h3>Aloqa</h3>
+        <p>Email: info@chocomarket.uz</p>
+        <p>Tel: +998 90 123 45 67</p>
+    </div>
+
+    <div>
+        <h3>Ijtimoiy tarmoqlar</h3>
+        <p>Facebook | Instagram | Telegram</p>
+    </div>
+
+    <p class="copy">© 2026 Choco Market</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
